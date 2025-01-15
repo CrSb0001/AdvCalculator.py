@@ -1,3 +1,5 @@
+from .basicmath import bas_math_calc
+
 START_UP_INPUTS=set('12345')
 
 def calc_setup():
@@ -10,8 +12,7 @@ def calc_setup():
             print('That isn\'t an allowed value. Try again please.')
             continue
 
-print('Hi there! What type of math would you like to do with this calculator?')
-print('')
+print(f'Hi there! What type of math would you like to do with this calculator?\n')
 print('+-+--------------+')
 print('|1|Basic Math    |')
 print('+-+--------------+')
